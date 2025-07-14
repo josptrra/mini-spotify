@@ -52,7 +52,7 @@ export const getPopularTracks = async () => {
     const accessToken = await getAccessToken();
 
     const response = await axios.get(
-      `https://api.spotify.com/v1/search?q=year:2024&type=track&limit=20&market=US`,
+      `https://api.spotify.com/v1/search?q=year:2025&type=track&limit=20&market=US`,
       {
         headers: {
           Authorization: `Bearer ${accessToken}`,
